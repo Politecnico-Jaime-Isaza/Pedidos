@@ -1,4 +1,4 @@
-<!ELEMENT ListaPedidos (pedido)?>
+<!ELEMENT ListaPedidos (pedido)*>
         <!ELEMENT pedido (NumeroSerie, Cantidad, Peso?)>
             <!ELEMENT NumeroSerie (#PCDATA)>
             <!ELEMENT Cantidad (#PCDATA)>
