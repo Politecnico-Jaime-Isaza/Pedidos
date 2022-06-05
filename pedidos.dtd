@@ -1,0 +1,2 @@
+<!ELEMENT ListaPedidos (pedido?)>
+<!ELEMENT pedido()>
